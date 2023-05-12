@@ -21,7 +21,7 @@
 
   &__photo {
     position: relative;
-    width: 370px;
+    width: 354px;
     height: 274px;
     overflow: hidden;
   }
@@ -81,3 +81,18 @@
 }
 
 /* ---------- END RESPONSIVE TABLET ---------- */
+@media screen and (min-width: $breakpointDesktopStart) {
+  .projects {
+    padding: 94px 0;
+  }
+
+  .projects__list {
+    flex-wrap: nowrap;
+  }
+
+  .projects__title {
+    text-align: left;
+  }
+}
+
+/* ---------- END RESPONSIVE DESKTOP ---------- */
