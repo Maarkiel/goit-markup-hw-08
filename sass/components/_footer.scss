@@ -2,21 +2,25 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: $tertiaryColorDark;
+  letter-spacing: 0.03em;
 
   &__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    letter-spacing: 0.03em;
   }
 
   &__address {
     margin-bottom: 60px;
+    letter-spacing: 0.03em;
   }
 
   &__address-list {
     padding-left: 0px;
     padding-top: 20px;
+    letter-spacing: 0.03em;
   }
 
   &__address-list-item {
@@ -24,6 +28,7 @@
     font-size: 14px;
     font-style: normal;
     line-height: 1.7;
+    letter-spacing: 0.03em;
   }
 
   &__address-list-item-link {
@@ -32,12 +37,14 @@
     transition-property: color;
     transition-duration: $transitionDurationDefault;
     transition-timing-function: $transitionTimingDefault;
+    letter-spacing: 0.03em;
   }
 
   &__address-list-item-link:hover,
   &__address-list-item-link:focus,
   &__address-list-item-link:active {
     color: $secondaryColorWhite;
+    letter-spacing: 0.03em;
   }
 
   &__description {
@@ -46,17 +53,20 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px;
+    letter-spacing: 0.03em;
   }
 
   &__socials {
     margin-left: 0;
     margin-bottom: 60px;
+    letter-spacing: 0.03em;
   }
 
   &__socials-list {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    letter-spacing: 0.03em;
   }
 
   &__socials-icon {
@@ -67,6 +77,7 @@
     transition-property: background-color;
     transition-duration: $transitionDurationDefault;
     transition-timing-function: $transitionTimingDefault;
+    letter-spacing: 0.03em;
   }
 
   &__socials-icon:hover,
@@ -74,10 +85,12 @@
   &__socials-icon:active {
     background-color: $primaryColor;
     cursor: pointer;
+    letter-spacing: 0.03em;
   }
 
   &__newsletter {
     margin-left: 0;
+    letter-spacing: 0.03em;
   }
 
   &__newsletter-form {
@@ -86,6 +99,7 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
+    letter-spacing: 0.03em;
   }
 
   &__newsletter-form-input {
@@ -101,6 +115,7 @@
     transition-property: border;
     transition-duration: $transitionDurationDefault;
     transition-timing-function: $transitionTimingDefault;
+    letter-spacing: 0.03em;
   }
 
   &__newsletter-form-input:hover,
@@ -108,6 +123,7 @@
   &__newsletter-form-input:focus {
     border: 1px solid $primaryColor;
     outline: none;
+    letter-spacing: 0.03em;
   }
 }
 
