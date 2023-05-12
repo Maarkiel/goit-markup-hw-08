@@ -68,3 +68,16 @@
     line-height: 2;
   }
 }
+/* ---------- RESPONSIVE TABLET ---------- */
+
+@media screen and (min-width: $breakpointTabletStart) and (max-width: $breakpointTabletEnd) {
+  .projects__photo-overlay {
+    text-align: left;
+  }
+
+  .projects__list-item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+/* ---------- END RESPONSIVE TABLET ---------- */
